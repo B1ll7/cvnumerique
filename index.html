@@ -5,14 +5,50 @@
     <title>Cv Numérique</title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--meta obligatoire-->
+    <!--css-->
+    <style>
+        body {
+            background-color: #F1FFE7;
+        }
+        .profess {
+            font-size: 1.3em;
+        }
+        .jumbotron {
+            background-color: #A9FDAC;
+        }
+        footer {
+            background-color: #A9FDAC;
+            margin-top: 2%;
+        }
+        .clearfix
+        {
+            background-color: black;
+            padding: 5px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        .h-25
+        {
+            width: 100%;
+        }
+        .loup {
+            border-radius: 50px;
+        }
+        h2
+        {
+            padding-bottom: 1%;
+        }
+    </style>
 </head>
 <body>
     <!--navbar avec les liens vers les pages-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Home</a>
+    <nav class="navbar navbar-expand navbar-light ">
+        <a class="navbar-brand m-0 p-2" href="index.html">Home</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="#apropos">A propos <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -22,95 +58,135 @@
         </div>
     </nav>
     <!--corps de la page avec le jumbotron-->
-    <div class="jumbotron jumbotron-fluid p-4">
+    <div class="jumbotron jumbotron-fluid p-5 m-0">
         <h1 class="display-4">Bill MALAR</h1>
         <p class="blockquote">J'ai une question, je crois que j'ai un problème...<span class="blockquote-footer">Bill Les éditions La Manu le Havre 2018</span></p>
     </div>
-    <!--Caroussel-->
-    <div class="carousel-inner">
-        <div id="carouselExampleIndicators" class="carousel slide m-0" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            </ol>
-
-            <div class="item active">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlfo_sxpDuf6fD9N_UKGxm6_HN4GinJjzeDhzNsdlQD09J-Lo9wg" alt="Los Angeles">
+    <div class="text-center">
+        <!--a propos-->
+            <img class="h-25" src="img/papillon.jpg" alt="image de papillon" title="papillon" />
+                <h2 id="apropos">A propos</h2>
+                <p class="text-left m-5">
+                    Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
+                    ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
+                    haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
+                    Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
+                    ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
+                    haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
+                    Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
+                    ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
+                    haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
+                </p>
+        <div class="clearfix"></div>
+        <!--Parcours Formations-->
+        <div class="p-3 m-1" id="etudes">
+            <h2>Etudes&Formations</h2>
+            <div class="container-fluid row">
+                <img class="col-lg-3 loup" src="img/loup.jpg" alt="image de loup" title="loup" />
+                <div class="col-lg-9">
+                    <h3 class="font-weight-light">2018 Piscine École 42 Paris</h3>
+                    <p class="font-italic text-left">
+                        Sélection sur 1 mois / Missions : comprendre, analyser et reconstruire des fonctions de la librairie du langage C. Exercices quotidiens à rendre pour passer au niveau supérieur et des projets de groupes à réaliser chaque fin de semaine.
+                    </p>
+                    <h3 class="font-weight-light">2016 – 2017 2ème année de Licence Math Informatique Sciences de la matière et de l’ingénieur</h3>
+                    <p class="font-italic text-left">
+                        Sélection sur 1 mois / Missions : comprendre, analyser et reconstruire des fonctions de la librairie du langage C. Exercices quotidiens à rendre pour passer au niveau supérieur et des projets de groupes à réaliser chaque fin de semaine.
+                        Université du Havre
+                    </p>
+                    <h3 class="font-weight-light">2015 – 2016 CPGE 1er validée Physique Chimie, Science de L’ingénieur de François 1er</h3>
+                    <p class="font-italic text-left">
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <!--Parcours Professionnel-->
+        <div class="p-3 m-1">
+            <h2>Parcours professionnels</h2>
+            <div class="row">
+                <div class="text-left font-italic profess col-lg-9">
+                    <p>Depuis Septembre 2015 Animateur scouts et guides de France Le Havre</p>
+                    <p>sept 2017 – juin 2018 Garde d’enfant à domicile Le Havre</p>
+                    <p>Avril - mai 2018 Animateur Association st Thomas Le Havre</p>
+                    <p>Juillet – Août 2015 Animateur bénévole association Trait d’Union Le Havre</p>
+                    <p>2011 Aide pédagogique italien LV2 Collège Montesquieu Le Havre</p>
+                    <p>2010 Encadrant football équipe poussin Vittorio Veneto Italie</p>
+                </div>
+                <img class="col-lg-3 loup" src="img/loup.jpg" alt="image de loup" title="loup" />
             </div>
         </div>
     </div>
-        <!--a propos-->
-        <div class="p-2" id="apropos">
-            <h2>A propos</h2>
-            <p>
-                Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-                Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-                Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-            </p>
-        </div>
-        <!--Parcours Formations-->
-        <div class="p-2" id="etudes">
-            <h2>Etudes&Formations</h2>
-            <p>
-                Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-                Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-                Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-            </p>
-        </div>
-        <!--Parcours Professionnel-->
-        <div class="p-2">
-            <h2>Parcours professionnels</h2>
-            <p>
-                Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-                Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-                Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-            </p>
-        </div>
-        <!--Bas de page-->
-        <footer class="container-fluid border-top">
-            <h3 class="text-center">Contacts</h3>
-            <div class="row justify-content-around">
-                <div class="m-2">
-                    <h5>Mail</h5>
+    <!--Bas de page-->
+    <footer class="container-fluid border-top border-dark">
+        <h3 class="text-center">Contacts</h3>
+        <div class="row">
+            <div class="col-4 text-center">
+                <div class="h5">Mail</div>
+                <!--button mail-->
+                <button type="button" class="btn" data-toggle="modal" data-target="#modalid1">
                     <ul class="list-unstyled">
-                        <li>xxx</li>
+                        <li><img class="w-25" src="img/email.png" alt="email" title="email" /></li>
                     </ul>
+                </button>
+            </div>
+            <div class="col-4 text-center">
+                <div class="h5">Tel</div>
+                <!--button tel-->
+                <button type="button" class="btn" data-toggle="modal" data-target="#modalid2">
+                    <ul class="list-unstyled">
+                        <li><img class="w-25" src="img/phone.png" alt="phone" title="phone" /></li>
+                    </ul>
+                </button>
+            </div>
+            <div class="col-4 text-center">
+                <div class="h5">Réseaux sociaux</div>
+                <!--liens reseaux sociaux dans des lists-->
+                <ul class="list-unstyled row">
+                    <li class="col-4"><a href="https://www.facebook.com/bill.malar"><img class="w-75" src="img/fb.png" alt="fb" title="facebook" /></a></li>
+                    <li class="col-4"><a href="https://www.linkedin.com/in/bill-audrey-m-58a12393/"><img class="w-75" src="img/linkdn.png" alt="linkedn" title="linkedn" /></a></li>
+                    <li class="col-4"><a href="https://gitlab.ecole-e2n.fr/"><img class="w-75" src="img/gitlab.png" alt="gitlab" title="gitlab" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--modal mail-->
+    <div class="modal fade" id="modalid1" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <div class="m-2">
-                    <h5>Tel</h5>
-                    <ul class="list-unstyled">
-                        <li>xxx</li>
-                    </ul>
+                <div class="modal-body text-center bg-primary">
+                    <p class="text-white">malarbillaudrey@hotmail.fr</p>
                 </div>
-                <div class="m-2">
-                    <h5>Réseaux sociaux</h5>
-                    <ul class="list-unstyled">
-                        <li>xxx</li>
-                        <li>xxx</li>
-                        <li>xxx</li>
-                    </ul>
+                <div class="modal-footer">
+
                 </div>
             </div>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        </div>
+    </div>
+    <!--modal du numero de tel-->
+    <div class="modal fade" id="modalid2" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center bg-primary">
+                    <p class="text-white">07.67.30.56.73</p>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
