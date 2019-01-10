@@ -4,189 +4,274 @@
     <meta charset="utf-8" />
     <title>Cv Numérique</title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--meta obligatoire-->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/popper.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> <!--meta obligatoire-->
     <!--css-->
-    <style>
-        body {
-            background-color: #F1FFE7;
-        }
-        .profess {
-            font-size: 1.3em;
-        }
-        .jumbotron {
-            background-color: #A9FDAC;
-        }
-        footer {
-            background-color: #A9FDAC;
-            margin-top: 2%;
-        }
-        .clearfix
-        {
-            background-color: black;
-            padding: 5px;
-            margin-left: 10%;
-            margin-right: 10%;
-            margin-top: 2%;
-            margin-bottom: 2%;
-        }
-        .h-25
-        {
-            width: 100%;
-        }
-        .loup {
-            border-radius: 50px;
-        }
-        h2
-        {
-            padding-bottom: 1%;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="cv.css" />
+    <!--icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
 </head>
 <body>
-    <!--navbar avec les liens vers les pages-->
-    <nav class="navbar navbar-expand navbar-light ">
-        <a class="navbar-brand m-0 p-2" href="index.html">Home</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#apropos">A propos <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#etudes">mon parcours</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!--corps de la page avec le jumbotron-->
-    <div class="jumbotron jumbotron-fluid p-5 m-0">
-        <h1 class="display-4">Bill MALAR</h1>
-        <p class="blockquote">J'ai une question, je crois que j'ai un problème...<span class="blockquote-footer">Bill Les éditions La Manu le Havre 2018</span></p>
-    </div>
-    <div class="text-center">
-        <!--a propos-->
-            <img class="h-25" src="img/papillon.jpg" alt="image de papillon" title="papillon" />
-                <h2 id="apropos">A propos</h2>
-                <p class="text-left m-5">
-                    Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                    ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                    haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-                    Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                    ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                    haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-                    Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
-                    ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
-                    haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
-                </p>
-        <div class="clearfix"></div>
-        <!--Parcours Formations-->
-        <div class="p-3 m-1" id="etudes">
-            <h2>Etudes&Formations</h2>
-            <div class="container-fluid row">
-                <img class="col-lg-3 loup" src="img/loup.jpg" alt="image de loup" title="loup" />
-                <div class="col-lg-9">
-                    <h3 class="font-weight-light">2018 Piscine École 42 Paris</h3>
-                    <p class="font-italic text-left">
-                        Sélection sur 1 mois / Missions : comprendre, analyser et reconstruire des fonctions de la librairie du langage C. Exercices quotidiens à rendre pour passer au niveau supérieur et des projets de groupes à réaliser chaque fin de semaine.
-                    </p>
-                    <h3 class="font-weight-light">2016 – 2017 2ème année de Licence Math Informatique Sciences de la matière et de l’ingénieur</h3>
-                    <p class="font-italic text-left">
-                        Sélection sur 1 mois / Missions : comprendre, analyser et reconstruire des fonctions de la librairie du langage C. Exercices quotidiens à rendre pour passer au niveau supérieur et des projets de groupes à réaliser chaque fin de semaine.
-                        Université du Havre
-                    </p>
-                    <h3 class="font-weight-light">2015 – 2016 CPGE 1er validée Physique Chimie, Science de L’ingénieur de François 1er</h3>
-                    <p class="font-italic text-left">
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-        <!--Parcours Professionnel-->
-        <div class="p-3 m-1">
-            <h2>Parcours professionnels</h2>
-            <div class="row">
-                <div class="text-left font-italic profess col-lg-9">
-                    <p>Depuis Septembre 2015 Animateur scouts et guides de France Le Havre</p>
-                    <p>sept 2017 – juin 2018 Garde d’enfant à domicile Le Havre</p>
-                    <p>Avril - mai 2018 Animateur Association st Thomas Le Havre</p>
-                    <p>Juillet – Août 2015 Animateur bénévole association Trait d’Union Le Havre</p>
-                    <p>2011 Aide pédagogique italien LV2 Collège Montesquieu Le Havre</p>
-                    <p>2010 Encadrant football équipe poussin Vittorio Veneto Italie</p>
-                </div>
-                <img class="col-lg-3 loup" src="img/loup.jpg" alt="image de loup" title="loup" />
-            </div>
-        </div>
-    </div>
-    <!--Bas de page-->
-    <footer class="container-fluid border-top border-dark">
-        <h3 class="text-center">Contacts</h3>
-        <div class="row">
-            <div class="col-4 text-center">
-                <div class="h5">Mail</div>
-                <!--button mail-->
-                <button type="button" class="btn" data-toggle="modal" data-target="#modalid1">
-                    <ul class="list-unstyled">
-                        <li><img class="w-25" src="img/email.png" alt="email" title="email" /></li>
-                    </ul>
-                </button>
-            </div>
-            <div class="col-4 text-center">
-                <div class="h5">Tel</div>
-                <!--button tel-->
-                <button type="button" class="btn" data-toggle="modal" data-target="#modalid2">
-                    <ul class="list-unstyled">
-                        <li><img class="w-25" src="img/phone.png" alt="phone" title="phone" /></li>
-                    </ul>
-                </button>
-            </div>
-            <div class="col-4 text-center">
-                <div class="h5">Réseaux sociaux</div>
-                <!--liens reseaux sociaux dans des lists-->
-                <ul class="list-unstyled row">
-                    <li class="col-4"><a href="https://www.facebook.com/bill.malar"><img class="w-75" src="img/fb.png" alt="fb" title="facebook" /></a></li>
-                    <li class="col-4"><a href="https://www.linkedin.com/in/bill-audrey-m-58a12393/"><img class="w-75" src="img/linkdn.png" alt="linkedn" title="linkedn" /></a></li>
-                    <li class="col-4"><a href="https://gitlab.ecole-e2n.fr/"><img class="w-75" src="img/gitlab.png" alt="gitlab" title="gitlab" /></a></li>
+    <div class="container-fluid">
+        <h1 class="display-5 text-center bg-dark text-light p-2 m-0">Developpement & Programmation informatique</h1>
+        <!--navbar avec les liens vers les pages-->
+        <nav class="navbar navbar-expand navbar-light badge-secondary">
+            <a class="navbar-brand pl-3" href="index.html">Accueil</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#apropos">A propos <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#etudes">mon parcours</a>
+                    </li>
                 </ul>
             </div>
+        </nav>
+        <div class="text-center">
+            <!--a propos-->
+            <div class="band">
+                <!--corps de la page avec le jumbotron-->
+                <div class="jumbotron jumbotron-fluid p-2 m-0 row">
+                    <div class="col-lg-2 badge-dark text-light"><p>Photo</p></div>
+                    <div class="pl-lg-3">
+                        <h1 class="display-3">Bill MALAR</h1>
+                        <p class="blockquote">J'ai une question, je crois que j'ai un problème...<span class="blockquote-footer ml-lg-5">Bill Les éditions La Manu le Havre 2018</span></p>
+                    </div>
+                </div>
+                <img class="w-100" src="img/papillon.jpg" alt="image de papillon" title="papillon" />
+            </div>
+            <div>
+                <h2 id="apropos">A propos</h2>
+                <p class="text-left m-1 ml-5 mr-5">
+                    Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
+                    ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
+                    haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.
+                    Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est,
+                    ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit,
+                </p>
+            </div>
+            <div class="clearfix"></div>
+            <!--Competences professionnelles-->
+            <div class="row p-3 m-0">
+                <div class="col-lg-5">
+                    <h2>Programmes maitrisés</h2>
+                    <div class="row justify-content-center">
+                        <p class="col-4">HTML5 & CSS3</p>
+                        <div>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="col-4">GIMP2.10</p>
+                        <div>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full"></i>
+                            <i class="fas fa-square-full"></i>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="col-4">Pack Office</p>
+                        <div>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full"></i>
+                            <i class="fas fa-square-full"></i>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="col-4">Vim & SumbileText</p>
+                        <div>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full"></i>
+                            <i class="fas fa-square-full"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <h2>Langues Maitrisés</h2>
+                    <div class="row justify-content-center">
+                        <p class="col-3">Italien</p>
+                        <div>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="col-3">Anglais</p>
+                        <div>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full"></i>
+                            <i class="fas fa-square-full"></i>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="col-3">Espagnol</p>
+                        <div>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full grade"></i>
+                            <i class="fas fa-square-full"></i>
+                            <i class="fas fa-square-full"></i>
+                            <i class="fas fa-square-full"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <!--Parcours Formations-->
+            <div class="row p-3 m-0">
+                <img class="col-lg-3" src="img/loup.jpg" alt="image de loup" title="loup" />
+                <div class="col-lg-9">
+                    <h2  id="etudes">Etudes&Formations</h2>
+                    <h3 class="font-weight-light">Decembre 2018 - Mars 2019 Formation C# .NET Ecole La Manu Le Havre</h3>
+                    <p class="font-italic text-left mr-5">
+                        400h de programmation: Un programme divisé en plusieurs parties, avec des problèmes journaliers à résoudre afin de progresser 
+                        aussi bien en langage front-end que back-end. La particularité est que nous avions à travailler et comprendre le langague C# 
+                        et les librairies .NET.
+                    </p>
+                    <h3 class="font-weight-light">Août 2018 Piscine École 42 Paris</h3>
+                    <p class="font-italic text-left mr-5">
+                        Sélection sur 1 mois / Missions : comprendre, analyser et reconstruire des fonctions de la librairie du langage C. 
+                        Exercices quotidiens à rendre pour passer au niveau supérieur et des projets de groupes à réaliser chaque fin de semaine.
+                    </p>
+                    <h3 class="font-weight-light">2016 – 2017 2ème année de Licence Math Informatique Sciences de la matière et de l’ingénieur</h3>
+                    <p class="font-italic text-left mr-5">
+                        Un programme, qui nous faisait travailler autant sur l'informatique que sur les matières chimiques phisique. 
+                        En informatique et princpalement en programmation nous avions travailler avec le language C
+                        mais surtout avec le language java, nous avions aussi faire une initiation à l'HTML et CSS.
+                    </p>
+                    <h3 class="font-weight-light mr-5">2015 – 2016 CPGE 1er validée Physique Chimie, Science de L’ingénieur de François 1er</h3>
+                    <p class="font-italic text-left">
+                    </p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <!--Parcours Professionnel-->
+            <div class="row p-4 m-0">
+                <div class="text-left profess col-lg-9">
+                    <h2 class="text-center">Parcours professionnels</h2>
+                    <div class="font-italic mr-5">
+                        <p>Depuis Septembre 2015 Animateur scouts et guides de France Le Havre</p>
+                        <p>sept 2017 – juin 2018 Garde d’enfant à domicile Le Havre</p>
+                        <p>Avril - mai 2018 Animateur Association st Thomas Le Havre</p>
+                        <p>Juillet – Août 2015 Animateur bénévole association Trait d’Union Le Havre</p>
+                        <p>2011 Aide pédagogique italien LV2 Collège Montesquieu Le Havre</p>
+                        <p>2010 Encadrant football équipe poussin Vittorio Veneto Italie</p>
+                    </div>
+                </div>
+                <img class="col-lg-3" src="img/loup.jpg" alt="image de loup" title="loup" />
+            </div>
         </div>
-    </footer>
-    <!--modal mail-->
-    <div class="modal fade" id="modalid1" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+        <div class="clearfix"></div>
+        <div class="text-center m-0 badge-light">
+            <h2>Centres d'intérêts</h2>
+            <div class="p-4">
+                <div class="row m-0">
+                    <img class="col m-0" src="https://geo.img.pmdstatic.net/fit/https.3A.2F.2Fwww.2Ecaminteresse.2Efr.2Fcontent.2Fuploads.2F2018.2F06.2Ffootball-34751631280.2Ejpg/750x422/quality/80/background-color/ffffff/background-alpha/100/focus-point/640%2C294/crop-zone/0%2C0-1280x587/football.jpg" />
+                    <img class="col border border-secondary m-0" src="http://www.ac-grenoble.fr/ecole/praranger/wp-content/uploads/2017/10/musique.png" />
+                    <img class="col m-0" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuHFOTDjjdE2NxMzgau9HSnm2FHyVqPwk_pbs10-qj35d6bc-y" />
+                </div>
+                <div class="row mt-4 m-0">
+                    <img class="col m-0" src="img/loup.jpg" />
+                    <img class="col m-0" src="img/loup.jpg" />
+                    <img class="col m-0" src="img/loup.jpg" />
+                </div>
+            </div>
+        </div>
+        <!--Bas de page-->
+        <footer class="border-top border-dark badge-dark mt-0">
+            <h3 class="text-center">Contacts</h3>
+            <div class="row text-center m-0 pb-2">
+                <div class="col-lg mb-md-3">
+                    <!--button mail-->
+                    <button type="button" class="btn badge-light" data-toggle="modal" data-target="#modalmail">
+                        <p class="text-dark p-3 pt-4">Adresse mail</p>
                     </button>
                 </div>
-                <div class="modal-body text-center bg-primary">
-                    <p class="text-white">malarbillaudrey@hotmail.fr</p>
+                <div class="col-lg mb-md-3">
+                    <!--telephone-->
+                    <button type="button" class="btn badge-light" data-toggle="modal" data-target="#modaltel">
+                        <p class="text-dark p-3 pt-4">N° de Tel</p>
+                    </button>
                 </div>
-                <div class="modal-footer">
+                <div class="col-lg mb-md-3">
+                    <!--button reseaux sociaux-->
+                    <button type="button" class="btn badge-light" data-toggle="modal" data-target="#modalsocialnetwork">
+                        <p class="text-dark p-3 pt-4">Réseaux sociaux</p>
+                    </button>
+                </div>
+            </div>
+        </footer>
+        <!--modal mail-->
+        <div class="modal fade" id="modalmail" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center bg-primary">
+                        <p class="text-white"><a href="mailto:malarbillaudrey@hotmail.fr">malarbillaudrey@hotmail.fr</a></p>
+                    </div>
+                    <div class="modal-footer">
 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal du numero de tel-->
+        <div class="modal fade" id="modaltel" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center bg-primary">
+                        <p class="text-white">07.67.30.56.73</p>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+        <!--modal reseaux sociaux-->
+        <div class="modal fade" id="modasocialnetwork" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center bg-primary">
+                        <ul class="list-unstyled row">
+                            <li class="col-4"><a href="https://www.facebook.com/bill.malar"><img class="w-50" src="img/fb.png" alt="fb" title="facebook" /></a></li>
+                            <li class="col-4"><a href="https://www.linkedin.com/in/bill-audrey-m-58a12393/"><img class="w-50" src="img/linkdn.png" alt="linkedn" title="linkedn" /></a></li>
+                            <li class="col-4"><a href="https://gitlab.ecole-e2n.fr/"><img class="w-50" src="img/gitlab.png" alt="gitlab" title="gitlab" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer"></div>
                 </div>
             </div>
         </div>
     </div>
-    <!--modal du numero de tel-->
-    <div class="modal fade" id="modalid2" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-center bg-primary">
-                    <p class="text-white">07.67.30.56.73</p>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

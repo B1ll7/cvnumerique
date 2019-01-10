@@ -1,0 +1,53 @@
+﻿.container-fluid {
+    background-color: #44cf6c;
+    padding: 0px;
+    margin: 0px;
+    color: #011627;
+}
+
+.profess {
+    font-size: 1.2em;
+    padding-left: 3.5%;
+}
+
+.jumbotron {
+    background-color: #d5dfe5;
+}
+
+footer {
+    background-color: #d5dfe5;
+    margin-top: 2%;
+}
+
+.clearfix {
+    background-color: black;
+    padding: 2px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.h-25 {
+    width: 100%;
+}
+
+h2 {
+    padding-bottom: 2%;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+p {
+    font-size: 1em;
+}
+.band {
+    height: 550px;
+    overflow-y: hidden;
+    background-position-y: center;
+}
+
+.grade {
+    color: #d5dfe5;
+}
